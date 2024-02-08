@@ -1,0 +1,80 @@
+.header {
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 7vh;
+    padding-top: 50px;
+  }
+
+  .averageHeader {
+    text-align: center;
+    background: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 39vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 7px;
+  }
+
+.averageHeaderText{
+  font-size: 23px;
+}
+
+.nameTable{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 1700px;
+  background-color: gainsboro;
+
+}
+
+.headerText{
+  text-shadow: black 4px 1px 1px;
+  margin-top: -15px;
+}
+
+body{
+  background-color: lightgray;
+}
+
+.footer {
+  text-align: center;
+  background: lightslategray;
+  color: white;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: sticky;
+  width: 100%;
+  height: 100px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-shadow: black 1px 1px 4px;
+}
+
+#logoIMG{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  z-index: 1;
+}
+
+iframe{      
+  height: 100vh;  /* Set height to 100% of the viewport height */   
+  width: 100vw;  /* Set width to 100% of the viewport width */     
+  border: none; /* Remove default border */
+}
